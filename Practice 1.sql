@@ -15,7 +15,7 @@ GRANT 'developer_role' TO 'dev_user'@'localhost';
 GRANT 'analyst_role' TO 'analyst_user'@'localhost';
 
 4. Надав користувачу guest_user права на читання таблиці targets
-GRANT SELECT ON nazar_spirit.targets TO 'guest_user'@'localhost';
+GRANT SELECT ON spiritguard.targets TO 'guest_user'@'localhost';
 REVOKE CREATE ON `spiritguard` FROM 'dev_user'@'localhost';
 
 5. Управління доступом на рівні таблиць та стовпців
