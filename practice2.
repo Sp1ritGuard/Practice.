@@ -1,0 +1,1944 @@
+c:\xampp\mysql\bin\mysqld.exe, Version: 10.4.32-MariaDB-log (mariadb.org binary distribution). started with:
+TCP Port: 3296, Named Pipe: C:/xampp/mysql/mysql.sock
+Time		    Id Command	Argument
+241199 11:36:17	     8 Connect	root@localhost as anonymous on 
+		     8 Query	select @@version_comment limit 1
+241199 11:37:58	     8 Query	SHOW STATUS
+241199 11:38:08	     9 Connect	pma@localhost as anonymous on 
+		    10 Connect	root@localhost as anonymous on 
+		    10 Query	SELECT @@version, @@version_comment
+		    10 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    10 Query	SET lc_messages = 'uk_UA'
+		     9 Query	SHOW TABLES FROM `phpmyadmin`
+		     9 Init DB	phpmyadmin
+		     9 Query	SHOW TABLES FROM `phpmyadmin`
+		     9 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		     9 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		     9 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		     9 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		     9 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		     9 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		     9 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		     9 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+241199 11:38:10	     9 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    10 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		     9 Query	SHOW TABLES FROM `phpmyadmin`
+		     9 Init DB	phpmyadmin
+		     9 Query	SHOW TABLES FROM `phpmyadmin`
+		     9 Init DB	phpmyadmin
+		     9 Query	SHOW TABLES FROM `phpmyadmin`
+		     9 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		     9 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		     9 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		     9 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		     9 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		     9 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		     9 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    10 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    10 Init DB	mysql
+		    10 Query	SELECT CURRENT_USER()
+		    10 Query	SHOW GRANTS
+		    10 Query	SELECT `CHARACTER_SET_NAME` AS `Charset`, `DEFAULT_COLLATE_NAME` AS `Default collation`, `DESCRIPTION` AS `Description`, `MAXLEN` AS `Maxlen` FROM `information_schema`.`CHARACTER_SETS`
+		    10 Query	SELECT `COLLATION_NAME` AS `Collation`, `CHARACTER_SET_NAME` AS `Charset`, `ID` AS `Id`, `IS_DEFAULT` AS `Default`, `IS_COMPILED` AS `Compiled`, `SORTLEN` AS `Sortlen` FROM `information_schema`.`COLLATIONS`
+		    10 Query	SHOW SESSION VARIABLES LIKE 'character_set_server'
+		    10 Query	SELECT USER()
+241199 11:38:11	    10 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC
+		     9 Query	SELECT `db_name`, COUNT(*) AS `count` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' GROUP BY `db_name`
+		    10 Query	SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t
+		    10 Query	SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t
+		    10 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    10 Query	SHOW MASTER LOGS
+		     9 Query	SELECT `tab` FROM `phpmyadmin`.`pma__usergroups` WHERE `allowed` = 'N' AND `tab` LIKE 'server%' AND `usergroup` = (SELECT usergroup FROM `phpmyadmin`.`pma__users` WHERE `username` = 'root')
+		     9 Query	SELECT * FROM `phpmyadmin`.`pma__bookmark` WHERE ( `user` = '' OR `user` = 'root' ) ORDER BY label ASC
+241199 11:38:35	    10 Quit	
+		     9 Quit	
+241199 11:38:58	    11 Connect	pma@localhost as anonymous on 
+		    12 Connect	root@localhost as anonymous on 
+		    12 Query	SELECT @@version, @@version_comment
+		    12 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    12 Query	SET lc_messages = 'uk_UA'
+		    11 Query	SHOW TABLES FROM `phpmyadmin`
+		    11 Init DB	phpmyadmin
+		    11 Query	SHOW TABLES FROM `phpmyadmin`
+		    11 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    11 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    11 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    11 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    11 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    11 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    12 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    11 Query	SHOW TABLES FROM `phpmyadmin`
+		    11 Init DB	phpmyadmin
+		    11 Query	SHOW TABLES FROM `phpmyadmin`
+		    11 Init DB	phpmyadmin
+		    11 Query	SHOW TABLES FROM `phpmyadmin`
+		    11 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    11 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    11 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    11 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    11 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    11 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    11 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    11 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    12 Quit	
+		    11 Quit	
+		    13 Connect	pma@localhost as anonymous on 
+		    14 Connect	root@localhost as anonymous on 
+		    14 Query	SELECT @@version, @@version_comment
+		    14 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    14 Query	SET lc_messages = 'uk_UA'
+		    13 Query	SHOW TABLES FROM `phpmyadmin`
+		    13 Init DB	phpmyadmin
+		    13 Query	SHOW TABLES FROM `phpmyadmin`
+		    13 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    13 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    13 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    13 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    13 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    13 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    14 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    13 Query	SHOW TABLES FROM `phpmyadmin`
+		    13 Init DB	phpmyadmin
+		    13 Query	SHOW TABLES FROM `phpmyadmin`
+		    13 Init DB	phpmyadmin
+		    13 Query	SHOW TABLES FROM `phpmyadmin`
+		    13 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    13 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    13 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    13 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    13 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    13 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    13 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    13 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    14 Query	SELECT CURRENT_USER()
+		    14 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC
+		    13 Query	SELECT `db_name`, COUNT(*) AS `count` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' GROUP BY `db_name`
+		    14 Query	SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t
+		    14 Query	SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t
+		    14 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    14 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    14 Quit	
+		    13 Quit	
+		    15 Connect	pma@localhost as anonymous on 
+		    16 Connect	root@localhost as anonymous on 
+		    16 Query	SELECT @@version, @@version_comment
+		    16 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    16 Query	SET lc_messages = 'uk_UA'
+		    15 Query	SHOW TABLES FROM `phpmyadmin`
+		    15 Init DB	phpmyadmin
+		    15 Query	SHOW TABLES FROM `phpmyadmin`
+		    15 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    15 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    15 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    15 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    15 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    15 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    16 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    15 Query	SHOW TABLES FROM `phpmyadmin`
+		    15 Init DB	phpmyadmin
+		    15 Query	SHOW TABLES FROM `phpmyadmin`
+		    15 Init DB	phpmyadmin
+		    15 Query	SHOW TABLES FROM `phpmyadmin`
+		    15 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    15 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    15 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    15 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    15 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    15 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    15 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    15 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    16 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    16 Query	SELECT CURRENT_USER()
+		    16 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    16 Quit	
+		    15 Quit	
+		    17 Connect	pma@localhost as anonymous on 
+		    18 Connect	root@localhost as anonymous on 
+		    18 Query	SELECT @@version, @@version_comment
+		    18 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    18 Query	SET lc_messages = 'uk_UA'
+		    17 Query	SHOW TABLES FROM `phpmyadmin`
+		    17 Init DB	phpmyadmin
+		    17 Query	SHOW TABLES FROM `phpmyadmin`
+		    17 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    17 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    17 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    17 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    17 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    17 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    18 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    17 Query	SHOW TABLES FROM `phpmyadmin`
+		    17 Init DB	phpmyadmin
+		    17 Query	SHOW TABLES FROM `phpmyadmin`
+		    17 Init DB	phpmyadmin
+		    17 Query	SHOW TABLES FROM `phpmyadmin`
+		    17 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    17 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    17 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    17 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    17 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    17 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    17 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    17 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    18 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    18 Query	SELECT CURRENT_USER()
+		    18 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    18 Quit	
+		    17 Quit	
+		    19 Connect	pma@localhost as anonymous on 
+		    20 Connect	root@localhost as anonymous on 
+		    20 Query	SELECT @@version, @@version_comment
+		    20 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    20 Query	SET lc_messages = 'uk_UA'
+		    19 Query	SHOW TABLES FROM `phpmyadmin`
+		    19 Init DB	phpmyadmin
+		    19 Query	SHOW TABLES FROM `phpmyadmin`
+		    19 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    19 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    19 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    19 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    19 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    19 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    20 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    19 Query	SHOW TABLES FROM `phpmyadmin`
+		    19 Init DB	phpmyadmin
+		    19 Query	SHOW TABLES FROM `phpmyadmin`
+		    19 Init DB	phpmyadmin
+		    19 Query	SHOW TABLES FROM `phpmyadmin`
+		    19 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    19 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    19 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    19 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    19 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    19 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    19 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    19 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    20 Quit	
+		    19 Quit	
+241199 11:39:10	    21 Connect	pma@localhost as anonymous on 
+		    22 Connect	root@localhost as anonymous on 
+		    22 Query	SELECT @@version, @@version_comment
+		    22 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    22 Query	SET lc_messages = 'uk_UA'
+		    21 Query	SHOW TABLES FROM `phpmyadmin`
+		    21 Init DB	phpmyadmin
+		    21 Query	SHOW TABLES FROM `phpmyadmin`
+		    21 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    21 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    21 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    21 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    21 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    21 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    22 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    21 Query	SHOW TABLES FROM `phpmyadmin`
+		    21 Init DB	phpmyadmin
+		    21 Query	SHOW TABLES FROM `phpmyadmin`
+		    21 Init DB	phpmyadmin
+		    21 Query	SHOW TABLES FROM `phpmyadmin`
+		    21 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    21 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    21 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    21 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    21 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    21 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    21 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    21 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    21 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    21 Query	SELECT `username` FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    21 Query	UPDATE `phpmyadmin`.`pma__userconfig` SET `timevalue` = NOW(), `config_data` = '{\"Console\\/Mode\":\"collapse\",\"lang\":\"uk\"}' WHERE `username` = 'root'
+		    22 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    22 Query	SELECT CURRENT_USER()
+		    22 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    22 Quit	
+		    21 Quit	
+241199 11:39:20	    23 Connect	pma@localhost as anonymous on 
+		    24 Connect	root@localhost as anonymous on 
+		    24 Query	SELECT @@version, @@version_comment
+		    24 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    24 Query	SET lc_messages = 'uk_UA'
+		    23 Query	SHOW TABLES FROM `phpmyadmin`
+		    23 Init DB	phpmyadmin
+		    23 Query	SHOW TABLES FROM `phpmyadmin`
+		    23 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    23 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    23 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    23 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    23 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    23 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    23 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    24 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    23 Query	SHOW TABLES FROM `phpmyadmin`
+		    23 Init DB	phpmyadmin
+		    23 Query	SHOW TABLES FROM `phpmyadmin`
+		    23 Init DB	phpmyadmin
+		    23 Query	SHOW TABLES FROM `phpmyadmin`
+		    23 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    23 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    23 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    23 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    23 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    23 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    23 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    23 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    24 Query	SHOW MASTER STATUS
+		    24 Query	SHOW SLAVE STATUS
+		    24 Query	SHOW GLOBAL STATUS
+		    24 Query	SHOW GLOBAL VARIABLES
+		    24 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    24 Init DB	mysql
+		    24 Query	SELECT UNIX_TIMESTAMP() - 234
+241199 11:39:45	    24 Query	SELECT CURRENT_USER()
+		    24 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    24 Quit	
+		    23 Quit	
+		    25 Connect	pma@localhost as anonymous on 
+		    26 Connect	root@localhost as anonymous on 
+		    26 Query	SELECT @@version, @@version_comment
+		    26 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    26 Query	SET lc_messages = 'uk_UA'
+		    25 Query	SHOW TABLES FROM `phpmyadmin`
+		    25 Init DB	phpmyadmin
+		    25 Query	SHOW TABLES FROM `phpmyadmin`
+		    25 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    25 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    25 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    25 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    25 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    25 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    26 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    25 Query	SHOW TABLES FROM `phpmyadmin`
+		    25 Init DB	phpmyadmin
+		    25 Query	SHOW TABLES FROM `phpmyadmin`
+		    25 Init DB	phpmyadmin
+		    25 Query	SHOW TABLES FROM `phpmyadmin`
+		    25 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    25 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    25 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    25 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    25 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    25 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    25 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    25 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    26 Query	SELECT CURRENT_USER()
+		    26 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC
+		    25 Query	SELECT `db_name`, COUNT(*) AS `count` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' GROUP BY `db_name`
+		    26 Query	SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t
+		    26 Query	SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t
+		    26 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    26 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    26 Quit	
+		    25 Quit	
+241199 11:39:49	    27 Connect	pma@localhost as anonymous on 
+		    28 Connect	root@localhost as anonymous on 
+		    28 Query	SELECT @@version, @@version_comment
+		    28 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    28 Query	SET lc_messages = 'uk_UA'
+		    27 Query	SHOW TABLES FROM `phpmyadmin`
+		    27 Init DB	phpmyadmin
+		    27 Query	SHOW TABLES FROM `phpmyadmin`
+		    27 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    27 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    27 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    27 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    27 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    27 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    28 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    27 Query	SHOW TABLES FROM `phpmyadmin`
+		    27 Init DB	phpmyadmin
+		    27 Query	SHOW TABLES FROM `phpmyadmin`
+		    27 Init DB	phpmyadmin
+		    27 Query	SHOW TABLES FROM `phpmyadmin`
+		    27 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    27 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    27 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    27 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    27 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    27 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    27 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    27 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+241199 11:40:05	    28 Init DB	military
+		    28 Query	SHOW TABLES FROM `military`
+		    28 Query	SELECT @@lower_case_table_names
+		    28 Query	SELECT *, `TABLE_SCHEMA`       AS `Db`, `TABLE_NAME`         AS `Name`, `TABLE_TYPE`         AS `TABLE_TYPE`, `ENGINE`             AS `Engine`, `ENGINE`             AS `Type`, `VERSION`            AS `Version`, `ROW_FORMAT`         AS `Row_format`, `TABLE_ROWS`         AS `Rows`, `AVG_ROW_LENGTH`     AS `Avg_row_length`, `DATA_LENGTH`        AS `Data_length`, `MAX_DATA_LENGTH`    AS `Max_data_length`, `INDEX_LENGTH`       AS `Index_length`, `DATA_FREE`          AS `Data_free`, `AUTO_INCREMENT`     AS `Auto_increment`, `CREATE_TIME`        AS `Create_time`, `UPDATE_TIME`        AS `Update_time`, `CHECK_TIME`         AS `Check_time`, `TABLE_COLLATION`    AS `Collation`, `CHECKSUM`           AS `Checksum`, `CREATE_OPTIONS`     AS `Create_options`, `TABLE_COMMENT`      AS `Comment` FROM `information_schema`.`TABLES` t WHERE `TABLE_SCHEMA`  IN ('military')  ORDER BY Name ASC LIMIT 250 OFFSET 0
+		    28 Query	SHOW MASTER STATUS
+		    28 Query	SHOW SLAVE STATUS
+		    28 Query	SELECT COUNT(*) FROM `military`.`ammo`
+		    28 Query	SELECT `COLLATION_NAME` AS `Collation`, `CHARACTER_SET_NAME` AS `Charset`, `ID` AS `Id`, `IS_DEFAULT` AS `Default`, `IS_COMPILED` AS `Compiled`, `SORTLEN` AS `Sortlen` FROM `information_schema`.`COLLATIONS`
+		    27 Query	SELECT tracking_active FROM `phpmyadmin`.`pma__tracking` WHERE db_name = 'military' AND table_name = 'ammo' ORDER BY version DESC LIMIT 1
+		    27 Query	SELECT MAX(version) FROM `phpmyadmin`.`pma__tracking` WHERE `db_name` = 'military' AND `table_name` = 'ammo'
+		    27 Query	SELECT tracking_active FROM `phpmyadmin`.`pma__tracking` WHERE db_name = 'military' AND table_name = 'ammo_inventory' ORDER BY version DESC LIMIT 1
+		    27 Query	SELECT MAX(version) FROM `phpmyadmin`.`pma__tracking` WHERE `db_name` = 'military' AND `table_name` = 'ammo_inventory'
+		    28 Query	SELECT COUNT(*) FROM `military`.`corrections`
+		    27 Query	SELECT tracking_active FROM `phpmyadmin`.`pma__tracking` WHERE db_name = 'military' AND table_name = 'corrections' ORDER BY version DESC LIMIT 1
+		    27 Query	SELECT MAX(version) FROM `phpmyadmin`.`pma__tracking` WHERE `db_name` = 'military' AND `table_name` = 'corrections'
+		    28 Query	SELECT COUNT(*) FROM `military`.`fire_positions`
+		    27 Query	SELECT tracking_active FROM `phpmyadmin`.`pma__tracking` WHERE db_name = 'military' AND table_name = 'fire_positions' ORDER BY version DESC LIMIT 1
+		    27 Query	SELECT MAX(version) FROM `phpmyadmin`.`pma__tracking` WHERE `db_name` = 'military' AND `table_name` = 'fire_positions'
+		    28 Query	SELECT COUNT(*) FROM `military`.`fire_tasks`
+		    27 Query	SELECT tracking_active FROM `phpmyadmin`.`pma__tracking` WHERE db_name = 'military' AND table_name = 'fire_tasks' ORDER BY version DESC LIMIT 1
+		    27 Query	SELECT MAX(version) FROM `phpmyadmin`.`pma__tracking` WHERE `db_name` = 'military' AND `table_name` = 'fire_tasks'
+		    28 Query	SELECT COUNT(*) FROM `military`.`shots`
+		    27 Query	SELECT tracking_active FROM `phpmyadmin`.`pma__tracking` WHERE db_name = 'military' AND table_name = 'shots' ORDER BY version DESC LIMIT 1
+		    27 Query	SELECT MAX(version) FROM `phpmyadmin`.`pma__tracking` WHERE `db_name` = 'military' AND `table_name` = 'shots'
+		    28 Query	SELECT COUNT(*) FROM `military`.`targets`
+		    27 Query	SELECT tracking_active FROM `phpmyadmin`.`pma__tracking` WHERE db_name = 'military' AND table_name = 'targets' ORDER BY version DESC LIMIT 1
+		    27 Query	SELECT MAX(version) FROM `phpmyadmin`.`pma__tracking` WHERE `db_name` = 'military' AND `table_name` = 'targets'
+		    28 Query	SELECT COUNT(*) FROM `military`.`units`
+		    27 Query	SELECT tracking_active FROM `phpmyadmin`.`pma__tracking` WHERE db_name = 'military' AND table_name = 'units' ORDER BY version DESC LIMIT 1
+		    27 Query	SELECT MAX(version) FROM `phpmyadmin`.`pma__tracking` WHERE `db_name` = 'military' AND `table_name` = 'units'
+		    28 Query	SELECT COUNT(*) FROM `military`.`weapons`
+		    27 Query	SELECT tracking_active FROM `phpmyadmin`.`pma__tracking` WHERE db_name = 'military' AND table_name = 'weapons' ORDER BY version DESC LIMIT 1
+		    27 Query	SELECT MAX(version) FROM `phpmyadmin`.`pma__tracking` WHERE `db_name` = 'military' AND `table_name` = 'weapons'
+		    28 Query	SELECT DEFAULT_COLLATION_NAME FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = 'military' LIMIT 1
+		    28 Query	SELECT @@storage_engine
+		    28 Query	SELECT CURRENT_USER()
+		    27 Query	SELECT `comment` FROM `phpmyadmin`.`pma__column_info` WHERE db_name = 'military' AND table_name  = '' AND column_name = '(db_comment)'
+		    28 Query	SHOW TABLES FROM `military`
+		    28 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    28 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    28 Query	SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''localhost''' AND PRIVILEGE_TYPE='EVENT'
+		    28 Query	SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''localhost''' AND PRIVILEGE_TYPE='TRIGGER'
+		    27 Query	SELECT `tab` FROM `phpmyadmin`.`pma__usergroups` WHERE `allowed` = 'N' AND `tab` LIKE 'db%' AND `usergroup` = (SELECT usergroup FROM `phpmyadmin`.`pma__users` WHERE `username` = 'root')
+		    28 Quit	
+		    27 Quit	
+		    29 Connect	pma@localhost as anonymous on 
+		    30 Connect	root@localhost as anonymous on 
+		    30 Query	SELECT @@version, @@version_comment
+		    30 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    30 Query	SET lc_messages = 'uk_UA'
+		    29 Query	SHOW TABLES FROM `phpmyadmin`
+		    29 Init DB	phpmyadmin
+		    29 Query	SHOW TABLES FROM `phpmyadmin`
+		    29 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    29 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    29 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    29 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    29 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    29 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    30 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    29 Query	SHOW TABLES FROM `phpmyadmin`
+		    29 Init DB	phpmyadmin
+		    29 Query	SHOW TABLES FROM `phpmyadmin`
+		    29 Init DB	phpmyadmin
+		    29 Query	SHOW TABLES FROM `phpmyadmin`
+		    29 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    29 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    29 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    29 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    29 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    29 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    29 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    29 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    30 Query	SELECT CURRENT_USER()
+		    30 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC
+		    29 Query	SELECT `db_name`, COUNT(*) AS `count` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' GROUP BY `db_name`
+		    30 Query	SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t
+		    30 Query	SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t
+		    30 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    30 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    30 Quit	
+		    29 Quit	
+241199 11:39:54	    31 Connect	pma@localhost as anonymous on 
+		    32 Connect	root@localhost as anonymous on 
+		    32 Query	SELECT @@version, @@version_comment
+		    32 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    32 Query	SET lc_messages = 'uk_UA'
+		    31 Query	SHOW TABLES FROM `phpmyadmin`
+		    31 Init DB	phpmyadmin
+		    31 Query	SHOW TABLES FROM `phpmyadmin`
+		    31 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    31 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    31 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    31 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    31 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    31 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    32 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    31 Query	SHOW TABLES FROM `phpmyadmin`
+		    31 Init DB	phpmyadmin
+		    31 Query	SHOW TABLES FROM `phpmyadmin`
+		    31 Init DB	phpmyadmin
+		    31 Query	SHOW TABLES FROM `phpmyadmin`
+		    31 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    31 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    31 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    31 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    31 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    31 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    31 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    31 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    32 Query	SELECT CURRENT_USER()
+		    32 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC
+		    31 Query	SELECT `db_name`, COUNT(*) AS `count` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' GROUP BY `db_name`
+		    31 Query	SELECT `item_name` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' AND `item_type`='group' AND `db_name`='military'
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    32 Query	SELECT @@lower_case_table_names
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military' AND `ROUTINE_TYPE`='FUNCTION'
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`EVENTS` WHERE `EVENT_SCHEMA` ='military'
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    32 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    32 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    32 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    32 Quit	
+		    31 Quit	
+		    33 Connect	pma@localhost as anonymous on 
+		    34 Connect	root@localhost as anonymous on 
+		    34 Query	SELECT @@version, @@version_comment
+		    34 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    34 Query	SET lc_messages = 'uk_UA'
+		    33 Query	SHOW TABLES FROM `phpmyadmin`
+		    33 Init DB	phpmyadmin
+		    33 Query	SHOW TABLES FROM `phpmyadmin`
+		    33 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    33 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    33 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    33 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    33 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    33 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    34 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    33 Query	SHOW TABLES FROM `phpmyadmin`
+		    33 Init DB	phpmyadmin
+		    33 Query	SHOW TABLES FROM `phpmyadmin`
+		    33 Init DB	phpmyadmin
+		    33 Query	SHOW TABLES FROM `phpmyadmin`
+		    33 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    33 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    33 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    33 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    33 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    33 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    33 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    33 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    34 Query	SELECT CURRENT_USER()
+		    34 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC
+		    33 Query	SELECT `db_name`, COUNT(*) AS `count` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' GROUP BY `db_name`
+		    33 Query	SELECT `item_name` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' AND `item_type`='group' AND `db_name`='military'
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    34 Query	SELECT @@lower_case_table_names
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military' AND `ROUTINE_TYPE`='FUNCTION'
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`EVENTS` WHERE `EVENT_SCHEMA` ='military'
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    34 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    34 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    34 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    34 Quit	
+		    33 Quit	
+		    35 Connect	pma@localhost as anonymous on 
+		    36 Connect	root@localhost as anonymous on 
+		    36 Query	SELECT @@version, @@version_comment
+		    36 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    36 Query	SET lc_messages = 'uk_UA'
+		    35 Query	SHOW TABLES FROM `phpmyadmin`
+		    35 Init DB	phpmyadmin
+		    35 Query	SHOW TABLES FROM `phpmyadmin`
+		    35 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    35 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    35 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    35 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    35 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    35 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    36 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    35 Query	SHOW TABLES FROM `phpmyadmin`
+		    35 Init DB	phpmyadmin
+		    35 Query	SHOW TABLES FROM `phpmyadmin`
+		    35 Init DB	phpmyadmin
+		    35 Query	SHOW TABLES FROM `phpmyadmin`
+		    35 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    35 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    35 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    35 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    35 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    35 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    35 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    35 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    36 Query	SELECT CURRENT_USER()
+		    36 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC
+		    35 Query	SELECT `db_name`, COUNT(*) AS `count` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' GROUP BY `db_name`
+		    35 Query	SELECT `item_name` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' AND `item_type`='group' AND `db_name`='military'
+		    36 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    36 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    36 Query	SELECT @@lower_case_table_names
+		    36 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military' AND `ROUTINE_TYPE`='FUNCTION'
+		    36 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    36 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`EVENTS` WHERE `EVENT_SCHEMA` ='military'
+		    36 Query	SELECT `TABLE_NAME` AS `name` FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED') ORDER BY `TABLE_NAME` ASC LIMIT 0, 50
+		    35 Query	SELECT `item_name` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' AND `item_type`='table' AND `db_name`='military'
+		    36 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    36 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    36 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    36 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    36 Quit	
+		    35 Quit	
+		    37 Connect	pma@localhost as anonymous on 
+		    38 Connect	root@localhost as anonymous on 
+		    38 Query	SELECT @@version, @@version_comment
+		    38 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    38 Query	SET lc_messages = 'uk_UA'
+		    37 Query	SHOW TABLES FROM `phpmyadmin`
+		    37 Init DB	phpmyadmin
+		    37 Query	SHOW TABLES FROM `phpmyadmin`
+		    37 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    37 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    37 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    37 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    37 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    37 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    38 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    37 Query	SHOW TABLES FROM `phpmyadmin`
+		    37 Init DB	phpmyadmin
+		    37 Query	SHOW TABLES FROM `phpmyadmin`
+		    37 Init DB	phpmyadmin
+		    37 Query	SHOW TABLES FROM `phpmyadmin`
+		    37 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    37 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    37 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    37 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    37 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    37 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    37 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    37 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    38 Query	SELECT CURRENT_USER()
+		    38 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC
+		    37 Query	SELECT `db_name`, COUNT(*) AS `count` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' GROUP BY `db_name`
+		    37 Query	SELECT `item_name` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' AND `item_type`='group' AND `db_name`='military'
+		    38 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    38 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    38 Query	SELECT @@lower_case_table_names
+		    38 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military' AND `ROUTINE_TYPE`='FUNCTION'
+		    38 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    38 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`EVENTS` WHERE `EVENT_SCHEMA` ='military'
+		    38 Query	SELECT `TABLE_NAME` AS `name` FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED') ORDER BY `TABLE_NAME` ASC LIMIT 0, 50
+		    37 Query	SELECT `item_name` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' AND `item_type`='table' AND `db_name`='military'
+		    38 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    38 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    38 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    38 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    38 Quit	
+		    37 Quit	
+241199 11:40:10	    39 Connect	pma@localhost as anonymous on 
+		    40 Connect	root@localhost as anonymous on 
+		    40 Query	SELECT @@version, @@version_comment
+		    40 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    40 Query	SET lc_messages = 'uk_UA'
+		    39 Query	SHOW TABLES FROM `phpmyadmin`
+		    39 Init DB	phpmyadmin
+		    39 Query	SHOW TABLES FROM `phpmyadmin`
+		    39 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    39 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    39 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    39 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    39 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    39 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    40 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    39 Query	SHOW TABLES FROM `phpmyadmin`
+		    39 Init DB	phpmyadmin
+		    39 Query	SHOW TABLES FROM `phpmyadmin`
+		    39 Init DB	phpmyadmin
+		    39 Query	SHOW TABLES FROM `phpmyadmin`
+		    39 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    39 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    39 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    39 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    39 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    39 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    39 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    39 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    40 Init DB	military
+		    40 Query	SHOW TABLES FROM `military`
+		    40 Query	SELECT @@lower_case_table_names
+		    40 Query	SELECT *, `TABLE_SCHEMA`       AS `Db`, `TABLE_NAME`         AS `Name`, `TABLE_TYPE`         AS `TABLE_TYPE`, `ENGINE`             AS `Engine`, `ENGINE`             AS `Type`, `VERSION`            AS `Version`, `ROW_FORMAT`         AS `Row_format`, `TABLE_ROWS`         AS `Rows`, `AVG_ROW_LENGTH`     AS `Avg_row_length`, `DATA_LENGTH`        AS `Data_length`, `MAX_DATA_LENGTH`    AS `Max_data_length`, `INDEX_LENGTH`       AS `Index_length`, `DATA_FREE`          AS `Data_free`, `AUTO_INCREMENT`     AS `Auto_increment`, `CREATE_TIME`        AS `Create_time`, `UPDATE_TIME`        AS `Update_time`, `CHECK_TIME`         AS `Check_time`, `TABLE_COLLATION`    AS `Collation`, `CHECKSUM`           AS `Checksum`, `CREATE_OPTIONS`     AS `Create_options`, `TABLE_COMMENT`      AS `Comment` FROM `information_schema`.`TABLES` t WHERE `TABLE_SCHEMA`  IN ('military')  ORDER BY Name ASC
+241199 11:40:59	    39 Query	SELECT * FROM `phpmyadmin`.`pma__export_templates` WHERE `username` = 'root' AND `export_type` = 'database' ORDER BY `template_name`
+241199 11:41:20	    39 Query	SELECT `comment` FROM `phpmyadmin`.`pma__column_info` WHERE db_name = 'military' AND table_name  = '' AND column_name = '(db_comment)'
+		    40 Query	SHOW TABLES FROM `military`
+		    40 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    40 Query	SELECT CURRENT_USER()
+		    40 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    40 Query	SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''localhost''' AND PRIVILEGE_TYPE='EVENT'
+		    40 Query	SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''localhost''' AND PRIVILEGE_TYPE='TRIGGER'
+		    40 Quit	
+		    39 Quit	
+		    41 Connect	pma@localhost as anonymous on 
+		    42 Connect	root@localhost as anonymous on 
+		    42 Query	SELECT @@version, @@version_comment
+		    42 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    42 Query	SET lc_messages = 'uk_UA'
+		    41 Query	SHOW TABLES FROM `phpmyadmin`
+		    41 Init DB	phpmyadmin
+		    41 Query	SHOW TABLES FROM `phpmyadmin`
+		    41 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    41 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    41 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    41 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    41 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    41 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    42 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    41 Query	SHOW TABLES FROM `phpmyadmin`
+		    41 Init DB	phpmyadmin
+		    41 Query	SHOW TABLES FROM `phpmyadmin`
+		    41 Init DB	phpmyadmin
+		    41 Query	SHOW TABLES FROM `phpmyadmin`
+		    41 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    41 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    41 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    41 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    41 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    41 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    41 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    41 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    42 Query	SELECT CURRENT_USER()
+		    42 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC
+		    41 Query	SELECT `db_name`, COUNT(*) AS `count` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' GROUP BY `db_name`
+		    41 Query	SELECT `item_name` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' AND `item_type`='group' AND `db_name`='military'
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    42 Query	SELECT @@lower_case_table_names
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military' AND `ROUTINE_TYPE`='FUNCTION'
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`EVENTS` WHERE `EVENT_SCHEMA` ='military'
+		    42 Query	SELECT `TABLE_NAME` AS `name` FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED') ORDER BY `TABLE_NAME` ASC LIMIT 0, 50
+		    41 Query	SELECT `item_name` FROM `phpmyadmin`.`pma__navigationhiding` WHERE `username`='root' AND `item_type`='table' AND `db_name`='military'
+		    42 Query	SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t
+		    42 Query	SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` NOT IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` ='military'AND `ROUTINE_TYPE`='PROCEDURE'
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    42 Query	SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA`='military' AND `TABLE_TYPE` IN('BASE TABLE', 'SYSTEM VERSIONED')
+		    42 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    42 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    42 Quit	
+		    41 Quit	
+241199 11:41:28	    43 Connect	pma@localhost as anonymous on 
+		    44 Connect	root@localhost as anonymous on 
+		    44 Query	SELECT @@version, @@version_comment
+		    44 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    44 Query	SET lc_messages = 'uk_UA'
+		    43 Query	SHOW TABLES FROM `phpmyadmin`
+		    43 Init DB	phpmyadmin
+		    43 Query	SHOW TABLES FROM `phpmyadmin`
+		    43 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    43 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    43 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    43 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    43 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    43 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    44 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    43 Query	SHOW TABLES FROM `phpmyadmin`
+		    43 Init DB	phpmyadmin
+		    43 Query	SHOW TABLES FROM `phpmyadmin`
+		    43 Init DB	phpmyadmin
+		    43 Query	SHOW TABLES FROM `phpmyadmin`
+		    43 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    43 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    43 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    43 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    43 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    43 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    43 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    43 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    43 Query	INSERT INTO `phpmyadmin`.`pma__export_templates` (`username`, `export_type`, `template_name`, `template_data`) VALUES ('root', 'database', 'military_copy', '{\"quick_or_custom\":\"quick\",\"what\":\"sql\",\"structure_or_data_forced\":\"0\",\"table_select[]\":[\"ammo\",\"ammo_inventory\",\"corrections\",\"fire_positions\",\"fire_tasks\",\"shots\",\"targets\",\"units\",\"weapons\"],\"table_structure[]\":[\"ammo\",\"ammo_inventory\",\"corrections\",\"fire_positions\",\"fire_tasks\",\"shots\",\"targets\",\"units\",\"weapons\"],\"table_data[]\":[\"ammo\",\"ammo_inventory\",\"corrections\",\"fire_positions\",\"fire_tasks\",\"shots\",\"targets\",\"units\",\"weapons\"],\"aliases_new\":\"\",\"output_format\":\"sendit\",\"filename_template\":\"@DATABASE@\",\"remember_template\":\"on\",\"charset\":\"utf-8\",\"compression\":\"none\",\"maxsize\":\"\",\"codegen_structure_or_data\":\"data\",\"codegen_format\":\"0\",\"csv_separator\":\",\",\"csv_enclosed\":\"\\\"\",\"csv_escaped\":\"\\\"\",\"csv_terminated\":\"AUTO\",\"csv_null\":\"NULL\",\"csv_columns\":\"something\",\"csv_structure_or_data\":\"data\",\"excel_null\":\"NULL\",\"excel_columns\":\"something\",\"excel_edition\":\"win\",\"excel_structure_or_data\":\"data\",\"json_structure_or_data\":\"data\",\"json_unicode\":\"something\",\"latex_caption\":\"something\",\"latex_structure_or_data\":\"structure_and_data\",\"latex_structure_caption\":\"Структура таблиці @TABLE@\",\"latex_structure_continued_caption\":\"Структура таблиці @TABLE@ (продовження)\",\"latex_structure_label\":\"tab:@TABLE@-structure\",\"latex_relation\":\"something\",\"latex_comments\":\"something\",\"latex_mime\":\"something\",\"latex_columns\":\"something\",\"latex_data_caption\":\"Вміст таблиці @TABLE@\",\"latex_data_continued_caption\":\"Вміст таблиці @TABLE@ (продовження)\",\"latex_data_label\":\"tab:@TABLE@-data\",\"latex_null\":\"\\\\textit{NULL}\",\"mediawiki_structure_or_data\":\"structure_and_data\",\"mediawiki_caption\":\"something\",\"mediawiki_headers\":\"something\",\"htmlword_structure_or_data\":\"structure_and_data\",\"htmlword_null\":\"NULL\",\"ods_null\":\"NULL\",\"ods_structure_or_data\":\"data\",\"odt_structure_or_data\":\"structure_and_data\",\"odt_relation\":\"something\",\"odt_comments\":\"something\",\"odt_mime\":\"something\",\"odt_columns\":\"something\",\"odt_null\":\"NULL\",\"pdf_report_title\":\"\",\"pdf_structure_or_data\":\"structure_and_data\",\"phparray_structure_or_data\":\"data\",\"sql_include_comments\":\"something\",\"sql_header_comment\":\"\",\"sql_use_transaction\":\"something\",\"sql_compatibility\":\"NONE\",\"sql_structure_or_data\":\"structure_and_data\",\"sql_create_table\":\"something\",\"sql_auto_increment\":\"something\",\"sql_create_view\":\"something\",\"sql_procedure_function\":\"something\",\"sql_create_trigger\":\"something\",\"sql_backquotes\":\"something\",\"sql_type\":\"INSERT\",\"sql_insert_syntax\":\"both\",\"sql_max_query_size\":\"50000\",\"sql_hex_for_binary\":\"something\",\"sql_utc_time\":\"something\",\"texytext_structure_or_data\":\"structure_and_data\",\"texytext_null\":\"NULL\",\"xml_structure_or_data\":\"data\",\"xml_export_events\":\"something\",\"xml_export_functions\":\"something\",\"xml_export_procedures\":\"something\",\"xml_export_tables\":\"something\",\"xml_export_triggers\":\"something\",\"xml_export_views\":\"something\",\"xml_export_contents\":\"something\",\"yaml_structure_or_data\":\"data\",\"\":null,\"lock_tables\":null,\"as_separate_files\":null,\"csv_removeCRLF\":null,\"excel_removeCRLF\":null,\"json_pretty_print\":null,\"htmlword_columns\":null,\"ods_columns\":null,\"sql_dates\":null,\"sql_relation\":null,\"sql_mime\":null,\"sql_disable_fk\":null,\"sql_views_as_tables\":null,\"sql_metadata\":null,\"sql_create_database\":null,\"sql_drop_table\":null,\"sql_if_not_exists\":null,\"sql_simple_view_export\":null,\"sql_view_current_user\":null,\"sql_or_replace_view\":null,\"sql_truncate\":null,\"sql_delayed\":null,\"sql_ignore\":null,\"texytext_columns\":null}')
+		    43 Query	SELECT MAX(version) FROM `phpmyadmin`.`pma__tracking` WHERE `db_name` = 'military' AND `table_name` = 'pma__export_templates' AND FIND_IN_SET('INSERT',tracking) > 0
+		    43 Query	SELECT * FROM `phpmyadmin`.`pma__export_templates` WHERE `username` = 'root' AND `export_type` = 'database' ORDER BY `template_name`
+		    43 Query	SELECT `comment` FROM `phpmyadmin`.`pma__column_info` WHERE db_name = 'military' AND table_name  = '' AND column_name = '(db_comment)'
+		    44 Query	SHOW TABLES FROM `military`
+		    44 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    44 Query	SELECT CURRENT_USER()
+		    44 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    44 Query	SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''localhost''' AND PRIVILEGE_TYPE='EVENT'
+		    44 Query	SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''root''@''localhost''' AND PRIVILEGE_TYPE='TRIGGER'
+		    44 Quit	
+		    43 Quit	
+24199 11:42:38	    45 Connect	pma@localhost as anonymous on 
+		    46 Connect	root@localhost as anonymous on 
+		    46 Query	SELECT @@version, @@version_comment
+		    46 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    46 Query	SET lc_messages = 'uk_UA'
+		    45 Query	SHOW TABLES FROM `phpmyadmin`
+		    45 Init DB	phpmyadmin
+		    45 Query	SHOW TABLES FROM `phpmyadmin`
+		    45 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    45 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    45 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    45 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    45 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    45 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    46 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    45 Query	SHOW TABLES FROM `phpmyadmin`
+		    45 Init DB	phpmyadmin
+		    45 Query	SHOW TABLES FROM `phpmyadmin`
+		    45 Init DB	phpmyadmin
+		    45 Query	SHOW TABLES FROM `phpmyadmin`
+		    45 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    45 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    45 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		    45 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		    45 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		    45 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		    45 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		    45 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    45 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    46 Query	SET SQL_MODE=""
+		    46 Query	SELECT @@session.time_zone
+		    46 Query	SET time_zone = "+00:00"
+		    46 Query	SHOW PROCEDURE STATUS
+		    46 Query	SHOW FUNCTION STATUS
+		    46 Query	SHOW CREATE PROCEDURE `military`.`DestroyFirePosition`
+		    46 Query	SHOW CREATE PROCEDURE `military`.`FireShot`
+		    46 Query	SHOW CREATE PROCEDURE `military`.`MoveGunPosition`
+		    46 Query	SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA = 'military' AND TABLE_NAME = 'ammo'
+		    46 Query	SHOW TABLE STATUS FROM `military` WHERE Name = 'ammo'
+		    46 Query	SET SQL_QUOTE_SHOW_CREATE = 1
+		    46 Query	USE `military`
+		    46 Query	SHOW CREATE TABLE `military`.`ammo`
+		    46 Query	SHOW COLUMNS FROM `military`.`ammo`
+		    46 Query	SELECT @@lower_case_table_names
+		    46 Query	SELECT *, `TABLE_SCHEMA`       AS `Db`, `TABLE_NAME`         AS `Name`, `TABLE_TYPE`         AS `TABLE_TYPE`, `ENGINE`             AS `Engine`, `ENGINE`             AS `Type`, `VERSION`            AS `Version`, `ROW_FORMAT`         AS `Row_format`, `TABLE_ROWS`         AS `Rows`, `AVG_ROW_LENGTH`     AS `Avg_row_length`, `DATA_LENGTH`        AS `Data_length`, `MAX_DATA_LENGTH`    AS `Max_data_length`, `INDEX_LENGTH`       AS `Index_length`, `DATA_FREE`          AS `Data_free`, `AUTO_INCREMENT`     AS `Auto_increment`, `CREATE_TIME`        AS `Create_time`, `UPDATE_TIME`        AS `Update_time`, `CHECK_TIME`         AS `Check_time`, `TABLE_COLLATION`    AS `Collation`, `CHECKSUM`           AS `Checksum`, `CREATE_OPTIONS`     AS `Create_options`, `TABLE_COMMENT`      AS `Comment` FROM `information_schema`.`TABLES` t WHERE `TABLE_SCHEMA`  IN ('military') AND t.`TABLE_NAME`  = 'ammo' ORDER BY Name ASC
+		    46 Query	SELECT `id`, `ammo_type`, `mass`, `caliber`, `position_id`, `is_destroyed` FROM `military`.`ammo`
+		    46 Query	SELECT TRIGGER_SCHEMA, TRIGGER_NAME, EVENT_MANIPULATION, EVENT_OBJECT_TABLE, ACTION_TIMING, ACTION_STATEMENT, EVENT_OBJECT_SCHEMA, EVENT_OBJECT_TABLE, DEFINER FROM information_schema.TRIGGERS WHERE EVENT_OBJECT_SCHEMA = 'military' AND EVENT_OBJECT_TABLE  = 'ammo'
+		    46 Query	SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA = 'military' AND TABLE_NAME = 'ammo_inventory'
+		    46 Query	SELECT *, `COLUMN_NAME`       AS `Field`, `COLUMN_TYPE`       AS `Type`, `COLLATION_NAME`    AS `Collation`, `IS_NULLABLE`       AS `Null`, `COLUMN_KEY`        AS `Key`, `COLUMN_DEFAULT`    AS `Default`, `EXTRA`             AS `Extra`, `PRIVILEGES`        AS `Privileges`, `COLUMN_COMMENT`    AS `Comment` FROM `information_schema`.`COLUMNS`
+ WHERE `TABLE_SCHEMA` = 'military'  AND `TABLE_NAME` = 'ammo_inventory'
+		    46 Query	SELECT TRIGGER_SCHEMA, TRIGGER_NAME, EVENT_MANIPULATION, EVENT_OBJECT_TABLE, ACTION_TIMING, ACTION_STATEMENT, EVENT_OBJECT_SCHEMA, EVENT_OBJECT_TABLE, DEFINER FROM information_schema.TRIGGERS WHERE EVENT_OBJECT_SCHEMA = 'military' AND EVENT_OBJECT_TABLE  = 'ammo_inventory'
+		    46 Query	SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA = 'military' AND TABLE_NAME = 'corrections'
+		    46 Query	SHOW TABLE STATUS FROM `military` WHERE Name = 'corrections'
+		    46 Query	SET SQL_QUOTE_SHOW_CREATE = 1
+		    46 Query	USE `military`
+		    46 Query	SHOW CREATE TABLE `military`.`corrections`
+		    46 Query	SHOW COLUMNS FROM `military`.`corrections`
+		    46 Query	SELECT *, `TABLE_SCHEMA`       AS `Db`, `TABLE_NAME`         AS `Name`, `TABLE_TYPE`         AS `TABLE_TYPE`, `ENGINE`             AS `Engine`, `ENGINE`             AS `Type`, `VERSION`            AS `Version`, `ROW_FORMAT`         AS `Row_format`, `TABLE_ROWS`         AS `Rows`, `AVG_ROW_LENGTH`     AS `Avg_row_length`, `DATA_LENGTH`        AS `Data_length`, `MAX_DATA_LENGTH`    AS `Max_data_length`, `INDEX_LENGTH`       AS `Index_length`, `DATA_FREE`          AS `Data_free`, `AUTO_INCREMENT`     AS `Auto_increment`, `CREATE_TIME`        AS `Create_time`, `UPDATE_TIME`        AS `Update_time`, `CHECK_TIME`         AS `Check_time`, `TABLE_COLLATION`    AS `Collation`, `CHECKSUM`           AS `Checksum`, `CREATE_OPTIONS`     AS `Create_options`, `TABLE_COMMENT`      AS `Comment` FROM `information_schema`.`TABLES` t WHERE `TABLE_SCHEMA`  IN ('military') AND t.`TABLE_NAME`  = 'corrections' ORDER BY Name ASC
+		    46 Query	SELECT `id`, `commander`, `name`, `people`, `age` FROM `military`.`corrections`
+		    46 Query	SELECT TRIGGER_SCHEMA, TRIGGER_NAME, EVENT_MANIPULATION, EVENT_OBJECT_TABLE, ACTION_TIMING, ACTION_STATEMENT, EVENT_OBJECT_SCHEMA, EVENT_OBJECT_TABLE, DEFINER FROM information_schema.TRIGGERS WHERE EVENT_OBJECT_SCHEMA = 'military' AND EVENT_OBJECT_TABLE  = 'corrections'
+		    46 Query	SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA = 'military' AND TABLE_NAME = 'fire_positions'
+		    46 Query	SHOW TABLE STATUS FROM `military` WHERE Name = 'fire_positions'
+		    46 Query	SET SQL_QUOTE_SHOW_CREATE = 1
+		    46 Query	USE `military`
+		    46 Query	SHOW CREATE TABLE `military`.`fire_positions`
+		    46 Query	SHOW COLUMNS FROM `military`.`fire_positions`
+		    46 Query	SELECT *, `TABLE_SCHEMA`       AS `Db`, `TABLE_NAME`         AS `Name`, `TABLE_TYPE`         AS `TABLE_TYPE`, `ENGINE`             AS `Engine`, `ENGINE`             AS `Type`, `VERSION`            AS `Version`, `ROW_FORMAT`         AS `Row_format`, `TABLE_ROWS`         AS `Rows`, `AVG_ROW_LENGTH`     AS `Avg_row_length`, `DATA_LENGTH`        AS `Data_length`, `MAX_DATA_LENGTH`    AS `Max_data_length`, `INDEX_LENGTH`       AS `Index_length`, `DATA_FREE`          AS `Data_free`, `AUTO_INCREMENT`     AS `Auto_increment`, `CREATE_TIME`        AS `Create_time`, `UPDATE_TIME`        AS `Update_time`, `CHECK_TIME`         AS `Check_time`, `TABLE_COLLATION`    AS `Collation`, `CHECKSUM`           AS `Checksum`, `CREATE_OPTIONS`     AS `Create_options`, `TABLE_COMMENT`      AS `Comment` FROM `information_schema`.`TABLES` t WHERE `TABLE_SCHEMA`  IN ('military') AND t.`TABLE_NAME`  = 'fire_positions' ORDER BY Name ASC
+		    46 Query	SELECT `id`, `x`, `y`, `unit_id`, `weapon_id`, `is_destroyed` FROM `military`.`fire_positions`
+		    46 Query	SELECT TRIGGER_SCHEMA, TRIGGER_NAME, EVENT_MANIPULATION, EVENT_OBJECT_TABLE, ACTION_TIMING, ACTION_STATEMENT, EVENT_OBJECT_SCHEMA, EVENT_OBJECT_TABLE, DEFINER FROM information_schema.TRIGGERS WHERE EVENT_OBJECT_SCHEMA = 'military' AND EVENT_OBJECT_TABLE  = 'fire_positions'
+		    46 Query	SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA = 'military' AND TABLE_NAME = 'fire_tasks'
+		    46 Query	SHOW TABLE STATUS FROM `military` WHERE Name = 'fire_tasks'
+		    46 Query	SET SQL_QUOTE_SHOW_CREATE = 1
+		    46 Query	USE `military`
+		    46 Query	SHOW CREATE TABLE `military`.`fire_tasks`
+		    46 Query	SHOW COLUMNS FROM `military`.`fire_tasks`
+		    46 Query	SELECT *, `TABLE_SCHEMA`       AS `Db`, `TABLE_NAME`         AS `Name`, `TABLE_TYPE`         AS `TABLE_TYPE`, `ENGINE`             AS `Engine`, `ENGINE`             AS `Type`, `VERSION`            AS `Version`, `ROW_FORMAT`         AS `Row_format`, `TABLE_ROWS`         AS `Rows`, `AVG_ROW_LENGTH`     AS `Avg_row_length`, `DATA_LENGTH`        AS `Data_length`, `MAX_DATA_LENGTH`    AS `Max_data_length`, `INDEX_LENGTH`       AS `Index_length`, `DATA_FREE`          AS `Data_free`, `AUTO_INCREMENT`     AS `Auto_increment`, `CREATE_TIME`        AS `Create_time`, `UPDATE_TIME`        AS `Update_time`, `CHECK_TIME`         AS `Check_time`, `TABLE_COLLATION`    AS `Collation`, `CHECKSUM`           AS `Checksum`, `CREATE_OPTIONS`     AS `Create_options`, `TABLE_COMMENT`      AS `Comment` FROM `information_schema`.`TABLES` t WHERE `TABLE_SCHEMA`  IN ('military') AND t.`TABLE_NAME`  = 'fire_tasks' ORDER BY Name ASC
+		    46 Query	SELECT `id`, `position_id`, `target_id`, `description`, `ammo_type`, `ammo_count` FROM `military`.`fire_tasks`
+		    46 Query	SELECT TRIGGER_SCHEMA, TRIGGER_NAME, EVENT_MANIPULATION, EVENT_OBJECT_TABLE, ACTION_TIMING, ACTION_STATEMENT, EVENT_OBJECT_SCHEMA, EVENT_OBJECT_TABLE, DEFINER FROM information_schema.TRIGGERS WHERE EVENT_OBJECT_SCHEMA = 'military' AND EVENT_OBJECT_TABLE  = 'fire_tasks'
+		    46 Query	SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA = 'military' AND TABLE_NAME = 'shots'
+		    46 Query	SHOW TABLE STATUS FROM `military` WHERE Name = 'shots'
+		    46 Query	SET SQL_QUOTE_SHOW_CREATE = 1
+		    46 Query	USE `military`
+		    46 Query	SHOW CREATE TABLE `military`.`shots`
+		    46 Query	SHOW COLUMNS FROM `military`.`shots`
+		    46 Query	SELECT *, `TABLE_SCHEMA`       AS `Db`, `TABLE_NAME`         AS `Name`, `TABLE_TYPE`         AS `TABLE_TYPE`, `ENGINE`             AS `Engine`, `ENGINE`             AS `Type`, `VERSION`            AS `Version`, `ROW_FORMAT`         AS `Row_format`, `TABLE_ROWS`         AS `Rows`, `AVG_ROW_LENGTH`     AS `Avg_row_length`, `DATA_LENGTH`        AS `Data_length`, `MAX_DATA_LENGTH`    AS `Max_data_length`, `INDEX_LENGTH`       AS `Index_length`, `DATA_FREE`          AS `Data_free`, `AUTO_INCREMENT`     AS `Auto_increment`, `CREATE_TIME`        AS `Create_time`, `UPDATE_TIME`        AS `Update_time`, `CHECK_TIME`         AS `Check_time`, `TABLE_COLLATION`    AS `Collation`, `CHECKSUM`           AS `Checksum`, `CREATE_OPTIONS`     AS `Create_options`, `TABLE_COMMENT`      AS `Comment` FROM `information_schema`.`TABLES` t WHERE `TABLE_SCHEMA`  IN ('military') AND t.`TABLE_NAME`  = 'shots' ORDER BY Name ASC
+		    46 Query	SELECT `id`, `ammo_type`, `target_id`, `position_id` FROM `military`.`shots`
+		    46 Query	SELECT TRIGGER_SCHEMA, TRIGGER_NAME, EVENT_MANIPULATION, EVENT_OBJECT_TABLE, ACTION_TIMING, ACTION_STATEMENT, EVENT_OBJECT_SCHEMA, EVENT_OBJECT_TABLE, DEFINER FROM information_schema.TRIGGERS WHERE EVENT_OBJECT_SCHEMA = 'military' AND EVENT_OBJECT_TABLE  = 'shots'
+		    46 Query	SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA = 'military' AND TABLE_NAME = 'targets'
+		    46 Query	SHOW TABLE STATUS FROM `military` WHERE Name = 'targets'
+		    46 Query	SET SQL_QUOTE_SHOW_CREATE = 1
+		    46 Query	USE `military`
+		    46 Query	SHOW CREATE TABLE `military`.`targets`
+		    46 Query	SHOW COLUMNS FROM `military`.`targets`
+		    46 Query	SELECT *, `TABLE_SCHEMA`       AS `Db`, `TABLE_NAME`         AS `Name`, `TABLE_TYPE`         AS `TABLE_TYPE`, `ENGINE`             AS `Engine`, `ENGINE`             AS `Type`, `VERSION`            AS `Version`, `ROW_FORMAT`         AS `Row_format`, `TABLE_ROWS`         AS `Rows`, `AVG_ROW_LENGTH`     AS `Avg_row_length`, `DATA_LENGTH`        AS `Data_length`, `MAX_DATA_LENGTH`    AS `Max_data_length`, `INDEX_LENGTH`       AS `Index_length`, `DATA_FREE`          AS `Data_free`, `AUTO_INCREMENT`     AS `Auto_increment`, `CREATE_TIME`        AS `Create_time`, `UPDATE_TIME`        AS `Update_time`, `CHECK_TIME`         AS `Check_time`, `TABLE_COLLATION`    AS `Collation`, `CHECKSUM`           AS `Checksum`, `CREATE_OPTIONS`     AS `Create_options`, `TABLE_COMMENT`      AS `Comment` FROM `information_schema`.`TABLES` t WHERE `TABLE_SCHEMA`  IN ('military') AND t.`TABLE_NAME`  = 'targets' ORDER BY Name ASC
+		    46 Query	SELECT `id`, `x`, `y`, `name`, `type` FROM `military`.`targets`
+		    46 Query	SELECT TRIGGER_SCHEMA, TRIGGER_NAME, EVENT_MANIPULATION, EVENT_OBJECT_TABLE, ACTION_TIMING, ACTION_STATEMENT, EVENT_OBJECT_SCHEMA, EVENT_OBJECT_TABLE, DEFINER FROM information_schema.TRIGGERS WHERE EVENT_OBJECT_SCHEMA = 'military' AND EVENT_OBJECT_TABLE  = 'targets'
+		    46 Query	SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA = 'military' AND TABLE_NAME = 'units'
+		    46 Query	SHOW TABLE STATUS FROM `military` WHERE Name = 'units'
+		    46 Query	SET SQL_QUOTE_SHOW_CREATE = 1
+		    46 Query	USE `military`
+		    46 Query	SHOW CREATE TABLE `military`.`units`
+		    46 Query	SHOW COLUMNS FROM `military`.`units`
+		    46 Query	SELECT *, `TABLE_SCHEMA`       AS `Db`, `TABLE_NAME`         AS `Name`, `TABLE_TYPE`         AS `TABLE_TYPE`, `ENGINE`             AS `Engine`, `ENGINE`             AS `Type`, `VERSION`            AS `Version`, `ROW_FORMAT`         AS `Row_format`, `TABLE_ROWS`         AS `Rows`, `AVG_ROW_LENGTH`     AS `Avg_row_length`, `DATA_LENGTH`        AS `Data_length`, `MAX_DATA_LENGTH`    AS `Max_data_length`, `INDEX_LENGTH`       AS `Index_length`, `DATA_FREE`          AS `Data_free`, `AUTO_INCREMENT`     AS `Auto_increment`, `CREATE_TIME`        AS `Create_time`, `UPDATE_TIME`        AS `Update_time`, `CHECK_TIME`         AS `Check_time`, `TABLE_COLLATION`    AS `Collation`, `CHECKSUM`           AS `Checksum`, `CREATE_OPTIONS`     AS `Create_options`, `TABLE_COMMENT`      AS `Comment` FROM `information_schema`.`TABLES` t WHERE `TABLE_SCHEMA`  IN ('military') AND t.`TABLE_NAME`  = 'units' ORDER BY Name ASC
+		    46 Query	SELECT `id`, `commander`, `name`, `people`, `age` FROM `military`.`units`
+		    46 Query	SELECT TRIGGER_SCHEMA, TRIGGER_NAME, EVENT_MANIPULATION, EVENT_OBJECT_TABLE, ACTION_TIMING, ACTION_STATEMENT, EVENT_OBJECT_SCHEMA, EVENT_OBJECT_TABLE, DEFINER FROM information_schema.TRIGGERS WHERE EVENT_OBJECT_SCHEMA = 'military' AND EVENT_OBJECT_TABLE  = 'units'
+		    46 Query	SELECT TABLE_NAME FROM information_schema.VIEWS WHERE TABLE_SCHEMA = 'military' AND TABLE_NAME = 'weapons'
+		    46 Query	SHOW TABLE STATUS FROM `military` WHERE Name = 'weapons'
+		    46 Query	SET SQL_QUOTE_SHOW_CREATE = 1
+		    46 Query	USE `military`
+		    46 Query	SHOW CREATE TABLE `military`.`weapons`
+		    46 Query	SHOW COLUMNS FROM `military`.`weapons`
+		    46 Query	SELECT *, `TABLE_SCHEMA`       AS `Db`, `TABLE_NAME`         AS `Name`, `TABLE_TYPE`         AS `TABLE_TYPE`, `ENGINE`             AS `Engine`, `ENGINE`             AS `Type`, `VERSION`            AS `Version`, `ROW_FORMAT`         AS `Row_format`, `TABLE_ROWS`         AS `Rows`, `AVG_ROW_LENGTH`     AS `Avg_row_length`, `DATA_LENGTH`        AS `Data_length`, `MAX_DATA_LENGTH`    AS `Max_data_length`, `INDEX_LENGTH`       AS `Index_length`, `DATA_FREE`          AS `Data_free`, `AUTO_INCREMENT`     AS `Auto_increment`, `CREATE_TIME`        AS `Create_time`, `UPDATE_TIME`        AS `Update_time`, `CHECK_TIME`         AS `Check_time`, `TABLE_COLLATION`    AS `Collation`, `CHECKSUM`           AS `Checksum`, `CREATE_OPTIONS`     AS `Create_options`, `TABLE_COMMENT`      AS `Comment` FROM `information_schema`.`TABLES` t WHERE `TABLE_SCHEMA`  IN ('military') AND t.`TABLE_NAME`  = 'weapons' ORDER BY Name ASC
+		    46 Query	SELECT `id`, `code`, `name`, `caliber`, `commander`, `unit_id`, `is_destroyed`, `distance` FROM `military`.`weapons`
+		    46 Query	SELECT TRIGGER_SCHEMA, TRIGGER_NAME, EVENT_MANIPULATION, EVENT_OBJECT_TABLE, ACTION_TIMING, ACTION_STATEMENT, EVENT_OBJECT_SCHEMA, EVENT_OBJECT_TABLE, DEFINER FROM information_schema.TRIGGERS WHERE EVENT_OBJECT_SCHEMA = 'military' AND EVENT_OBJECT_TABLE  = 'weapons'
+		    46 Query	SHOW TABLE STATUS FROM `military` WHERE Name = 'ammo_inventory'
+		    46 Query	SET SQL_QUOTE_SHOW_CREATE = 1
+		    46 Query	USE `military`
+		    46 Query	SHOW CREATE TABLE `military`.`ammo_inventory`
+		    46 Query	SELECT EVENT_NAME FROM information_schema.EVENTS WHERE EVENT_SCHEMA= 'military'
+		    46 Query	SET time_zone = "SYSTEM"
+		    46 Quit	
+		    45 Quit	
+c:\xampp\mysql\bin\mysqld.exe, Version: 10.4.32-MariaDB-log (mariadb.org binary distribution). started with:
+TCP Port: 3306, Named Pipe: C:/xampp/mysql/mysql.sock
+Time		    Id Command	Argument
+241199 11:44:09	     8 Connect	root@localhost as anonymous on 
+		     8 Query	select @@version_comment limit 1
+241199 11:45:30	     8 Query	SHOW GRANTS FOR 'admin_user'@'localhost'
+241199 11:50:49	     9 Connect	pma@localhost as anonymous on 
+		    10 Connect	root@localhost as anonymous on 
+		    10 Query	SELECT @@version, @@version_comment
+		    10 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    10 Query	SET lc_messages = 'uk_UA'
+		     9 Query	SHOW TABLES FROM `phpmyadmin`
+		     9 Init DB	phpmyadmin
+		     9 Query	SHOW TABLES FROM `phpmyadmin`
+		     9 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		     9 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		     9 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		     9 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		     9 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		     9 Query	SELECT `config_data`, UNIX_TIMESTAMP(`timevalue`) ts FROM `phpmyadmin`.`pma__userconfig` WHERE `username` = 'root'
+		    10 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		     9 Query	SHOW TABLES FROM `phpmyadmin`
+		     9 Init DB	phpmyadmin
+		     9 Query	SHOW TABLES FROM `phpmyadmin`
+		     9 Init DB	phpmyadmin
+		     9 Query	SHOW TABLES FROM `phpmyadmin`
+		     9 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		     9 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		     9 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_info` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_coords` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__pdf_pages` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__column_info` LIMIT 0
+		     9 Query	SHOW COLUMNS FROM `phpmyadmin`.`pma__column_info` WHERE Field IN ('input_transformation', 'input_transformation_options')
+		     9 Query	SELECT NULL FROM `pma__users` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__usergroups` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__export_templates` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__designer_settings` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__central_columns` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__savedsearches` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__navigationhiding` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__bookmark` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__userconfig` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__tracking` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__table_uiprefs` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__favorite` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__recent` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__history` LIMIT 0
+		     9 Query	SELECT NULL FROM `pma__relation` LIMIT 0
+		     9 Query	SELECT `tables` FROM `phpmyadmin`.`pma__favorite` WHERE `username` = 'root'
+		     9 Query	SELECT `tables` FROM `phpmyadmin`.`pma__recent` WHERE `username` = 'root'
+		    10 Query	SELECT 1 FROM mysql.user LIMIT 1
+		    10 Query	SELECT CURRENT_USER()
+		    10 Query	SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''root''@''localhost''' LIKE `GRANTEE` LIMIT 1
+		    10 Quit	
+		     9 Quit	
